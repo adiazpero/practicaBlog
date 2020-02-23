@@ -1,0 +1,23 @@
+.caja {
+    border: 1px;
+    border-radius: 5px;
+    background: rgb(252, 249, 249);
+    margin-top: 50px;
+    width: 600px;
+    height: 500px;
+    box-shadow: 5px 5px 5px rgb(219, 215, 215);
+}
+
+h3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.input {
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(219, 215, 215);
+}
+
+button {
+    margin-top: 30px;
+}
