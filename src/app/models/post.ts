@@ -3,7 +3,7 @@ export class Post {
     texto: string;
     autor: string;
     imagen: string;
-    fecha: Date;
+    fecha: string;
     categoria: string;
     id: number;
 
@@ -12,7 +12,7 @@ export class Post {
         this.texto = pTexto;
         this.autor = pAutor;
         this.imagen = pImagen;
-        this.fecha = new Date;
+        this.fecha = new Date().toLocaleString();
         this.categoria = pCategoria;
         this.id = pId;
 
