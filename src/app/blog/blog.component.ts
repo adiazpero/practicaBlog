@@ -42,13 +42,7 @@ export class BlogComponent implements OnInit {
   borrarPost(pId) {
     console.log(pId)
     this.postService.deletePost(pId)
-    /*  .then(async response => {
-        console.log(response);
-        //a mi array de productos, le va a llamar el metodo getCart
-        //esto recupera todos los productos
-        this.listaPosts = await this.postService.getCart();
-      })
-      */
+
   }
 
 
